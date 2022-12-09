@@ -6,9 +6,7 @@ import { useWallet } from '@solana/wallet-adapter-react';
 import { WalletMultiButton } from '@solana/wallet-adapter-react-ui';
 import CreateProduct from '../components/CreateProduct';
 
-// Constants
-const TWITTER_HANDLE = '_buildspace';
-const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
+
 
 const App = () => {
   const { publicKey } = useWallet();
@@ -18,7 +16,7 @@ const App = () => {
 
   const renderNotConnectedContainer = () => (
     <div>
-      <img src="https://media.giphy.com/media/eSwGh3YK54JKU/giphy.gif" alt="emoji" />
+      <img src="https://giphy.com/gifs/chicks-capybara-eyebleach-Qj6YPJxjwpUPK" alt="emoji" />
 
       <div className="button-container">
         <WalletMultiButton className="cta-button connect-wallet-button" />
@@ -51,7 +49,7 @@ const App = () => {
       <HeadComponent />
       <div className="container">
         <header className="header-container">
-          <p className="header"> 😳 Capybara Love 😈</p>
+          <p className="header"> 😳 Capybara Love 💜</p>
           <p className="sub-text">The only store that accepts meme coins</p>
 
           {isOwner && (
