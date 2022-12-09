@@ -7,6 +7,7 @@ This is a meme store that interacts with solana pay.
 ### Tech used
 HTML, CSS, JS, REACT, IPFS, PINATA
 Phantom extension is used to purchase.
+View site here --> https://web3-solana-pay-app.vercel.app/
 
 
 ![image](https://user-images.githubusercontent.com/64226925/206671698-473dd495-f337-4cf7-bfe2-2148b608447f.png)
